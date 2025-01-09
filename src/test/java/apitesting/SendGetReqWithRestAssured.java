@@ -13,7 +13,7 @@ public class SendGetReqWithRestAssured {
 	
 public static void main(String[] args) {
 		
-		Response response = given().auth().basic("sk_test_51QeGnuDj0R1qTIFyrT8erMa2DTMfT51uc0Kzd3j3uK5a8sXNynKicPZiFxHDqhhI5iwxE1wwxzw72nnXMGbjJyZk00NIqIPp5C", "")
+		Response response = given().auth().basic("username", "password")
 				.get("https://api.stripe.com/v1/customers");
 		
 		//response.prettyPrint();
