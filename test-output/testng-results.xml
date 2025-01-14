@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-14T09:48:14Z" name="Default suite" finished-at="2025-01-14T09:48:18Z" duration-ms="3452">
+    <groups>
+    </groups>
+    <test started-at="2025-01-14T09:48:14Z" name="Default test" finished-at="2025-01-14T09:48:18Z" duration-ms="3452">
+      <class name="com.tanya.APITestingFramework.testCases.CreateCustomerTest">
+        <test-method signature="validateCreateCustomerAPIWithInvalidSecretKey()[pri:0, instance:com.tanya.APITestingFramework.testCases.CreateCustomerTest@4b8d604b]" started-at="2025-01-14T09:48:14Z" name="validateCreateCustomerAPIWithInvalidSecretKey" finished-at="2025-01-14T09:48:17Z" duration-ms="2736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithInvalidSecretKey -->
+        <test-method signature="validateCreateCustomerAPIWithValidSecretKey()[pri:0, instance:com.tanya.APITestingFramework.testCases.CreateCustomerTest@4b8d604b]" started-at="2025-01-14T09:48:17Z" name="validateCreateCustomerAPIWithValidSecretKey" finished-at="2025-01-14T09:48:18Z" duration-ms="690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCreateCustomerAPIWithValidSecretKey -->
+      </class> <!-- com.tanya.APITestingFramework.testCases.CreateCustomerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
